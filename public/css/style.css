@@ -135,13 +135,6 @@ main.is-glitching > :not(.pin-spacer), main.is-glitching .pin-spacer > * { anima
 
 .defs { position: absolute; width: 0; height: 0; overflow: hidden; }   /* the shared thumb symbol */
 
-/* the Awwwards nominee badge: pinned to the right edge, under the overlays so it only shows on the scroll page */
-#awwwards { position: fixed; z-index: 40; top: 50%; right: 0; transform: translateY(-50%); line-height: 0; }
-#awwwards a { display: block; outline-offset: -3px; }
-#awwwards svg { display: block; }                           /* no filter here: a filter on a fixed element re-rasterises on every scroll frame on iOS */
-#awwwards a { box-shadow: 0 0 18px rgba(0,0,0,.55); }
-#awwwards a:hover { box-shadow: 0 0 18px rgba(0,0,0,.55), 0 0 16px rgba(77,255,140,.45); }
-@media (max-width: 720px) { #awwwards { top: auto; bottom: 72px; transform: none; } #awwwards svg { width: 40px; height: 129px; } }   /* phones: lower and smaller, clear of the deck and the OSD corners */
 
 /* ---------- header / nav ---------- */
 .topbar {

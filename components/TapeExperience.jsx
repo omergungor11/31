@@ -1,5 +1,5 @@
 import Films from "./Films";
-import { Badge, Chrome, Ending, Hero } from "./Scene";
+import { Chrome, Ending, Hero } from "./Scene";
 import Views from "./Views";
 import TapeRuntime from "./TapeRuntime";
 import { films, bonusFilm } from "../lib/films";
@@ -22,7 +22,6 @@ export default function TapeExperience() {
         <Ending />
       </main>
       <Views />
-      <Badge />
       <TapeRuntime films={films} bonusFilm={bonusFilm} />
     </>
   );

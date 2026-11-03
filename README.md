@@ -50,7 +50,7 @@ npm start
 
 Veritabanı varsayılan olarak Git'e alınmayan `.tape-data/tape.sqlite` dosyasındadır. Kalıcı sunucuda bu klasörün yazılabilir ve kalıcı olması gerekir. Başka bir veri konumu için `TAPE_DATA_DIR` ortam değişkenini ayarlayın. Çoklu sunucu veya geçici dosya sistemli dağıtımlarda ortak bir veritabanı uyarlaması gerekir.
 
-Görsel varlıklar ve animasyon kütüphaneleri yerelden sunulur. “Where to watch” bağlantıları JustWatch'ı açar; Awwwards bağlantısı özgün projeye gider.
+Görsel varlıklar ve animasyon kütüphaneleri yerelden sunulur. “Where to watch” bağlantıları JustWatch'ı açar.
 
 ## Doğrulama
 
