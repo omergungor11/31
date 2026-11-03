@@ -1,0 +1,7 @@
+node_modules/
+.next/
+out/
+.tape-data/
+.env*
+.DS_Store
+*.log
